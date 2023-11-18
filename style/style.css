@@ -10,14 +10,14 @@ div{
     width: 100%;
     float: left;
     background-color: cornflowerblue;
-    padding: 15px;
+    padding: 13px;
 }
 .btn-Add{
-    background-color: crimson;
+    background-color: white;
     padding: 10px 10px;
     float: left;
     border-radius: 5px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 15px;
     box-shadow: 1px 3px 5px 0px #888;
@@ -34,14 +34,15 @@ table{
     margin-top: 15px;
     border-collapse: collapse;
     cursor: pointer;
+    
 }
 table tr th{
-    padding: 10px;
     border: 2px solid #ccc;
     font-size: 18px;
+    padding: 10px 0;
 }
 table tr td{
-    padding: 7px;
+    padding: 10px;
     border: 2px solid #ccc;
     font-size: 14px;
 }
@@ -79,7 +80,6 @@ table tr td{
 }
 .header h1{
     font-size: 18px;
-    /* text-transform: uppercase; */
 }
 .header .btn-close{
     position: absolute;
@@ -194,15 +194,7 @@ label{
         padding: 9px;
     }
     .btn-Add{
-        background-color: crimson;
-        padding: 8px 8px;
-        float: left;
-        border-radius: 3px;
-        color: white;
-        font-weight: bold;
         font-size: 13px;
-        box-shadow: 1px 3px 5px 0px #888;
-        cursor: pointer;
     }
     table tr th{
         padding: 7px;
@@ -220,5 +212,18 @@ label{
         background-color: white;
         width: 370px;
         
+    }
+    .header{
+        height: 40px;
+    }
+    .footer{
+        height: 45px;
+        padding: 2px;
+    }
+    .btn-save{
+        margin-top: 4px;
+    }
+    .frm-body{
+        padding: 10px;
     }
 }
